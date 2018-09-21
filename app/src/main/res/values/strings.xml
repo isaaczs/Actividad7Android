@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Actividad 7 - Aplicacion Intent</string>
+    <string name="instruccionesTexto">Introduce un numero de telefono</string>
+    <string name="instruccionesURL">Introduce una URL</string>
+    <string name="botonTelefono">Marcar</string>
+    <string name="botonURL">Abrir página WEB</string>
+    <string name="botonMapas">Abrir mapas</string>
+    <string name="hintTelefono">8125356548</string>
+    <string name="hintURL">https://google.com</string>
+</resources>

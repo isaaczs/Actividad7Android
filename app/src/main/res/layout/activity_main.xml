@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textoInstruccionesNumero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="73dp"
+        android:text="@string/instruccionesTexto"
+        tools:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/inputURL"
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="178dp"
+        android:hint="@string/hintURL"
+        android:inputType="textUri"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="210dp" />
+
+    <TextView
+        android:id="@+id/textoInstruccionesURL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/instruccionesURL"
+        tools:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/inputNumero"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="111dp"
+        android:hint="@string/hintTelefono"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="42dp"
+        android:inputType="phone"/>
+
+    <Button
+        android:id="@+id/botonURL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="120dp"
+        android:text="@string/botonURL"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="279dp"
+        android:onClick="botonURL"/>
+
+    <Button
+        android:id="@+id/botonMapas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="56dp"
+        android:text="@string/botonMapas"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="348dp"
+        android:onClick="botonMapas"/>
+
+    <Button
+        android:id="@+id/botonTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="185dp"
+        android:text="@string/botonTelefono"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="113dp"
+        android:onClick="botonTelefono"/>
+
+</RelativeLayout>
